@@ -1,0 +1,29 @@
+.table_data {
+  margin-top: 20px;
+}
+.th_data {
+  font-weight: normal;
+  border: 1px solid #dddddd;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 85vw;
+
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  border: 1px solid #dddddd;
+}
